@@ -20,4 +20,9 @@ module com.studylab {
 
     // Exportar seu pacote principal
     exports com.studylab.gui;
+
+    // 🔥 Necessário para o AutoUpdater funcionar
+    exports com.studylab.updater;      // permite que outras partes do app acessem as classes
+
+    // (não é necessário abrir via opens, pois não usamos FXML ou reflexão)
 }

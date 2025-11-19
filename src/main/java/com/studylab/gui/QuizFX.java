@@ -15,6 +15,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
+import com.studylab.updater.AutoUpdater;
 import com.studylab.gui.ConfiguracoesData;
 import com.studylab.gui.Configuracoes;
 import com.studylab.gui.SplashScreen;
@@ -81,6 +82,7 @@ public class QuizFX extends Application {
 
     @Override
     public void start(Stage stage) {
+    	AutoUpdater.checkForUpdates();
         stage.setTitle("Study Power - Quiz");
 
         licenseManager = new LicenseManager();
