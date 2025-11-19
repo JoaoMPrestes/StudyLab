@@ -1,7 +1,0 @@
-/* Tema customizável gerado dinamicamente */
-.root {
-    --bg-color: #222222;       /* será substituído via Java */
-    --text-color: #ffffff;     /* contraste automático */
-    --text-contrast: #000000;  /* usado em botões */
-    --accent-color: #00aaff;   /* será substituído */
-}

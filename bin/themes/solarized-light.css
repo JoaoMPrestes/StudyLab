@@ -1,9 +1,0 @@
-.root { -fx-background-color: linear-gradient(#fdf6e3,#eee8d5); }
-.title { -fx-text-fill: linear-gradient(#268bd2,#2aa198); }
-.question { -fx-text-fill: #073642; }
-.alt-text { -fx-text-fill: #073642; }
-.progress { -fx-text-fill: #073642; }
-.time-on-bar { -fx-text-fill: #000000; }
-.primary { -fx-background-color: linear-gradient(#268bd2,#2aa198); -fx-text-fill: #ffffff; }
-.footer-text { -fx-text-fill: #268bd2; -fx-effect: dropshadow(gaussian, rgba(38,139,210,0.35), 8,0,0,1); }
-.progress-bar > .bar { -fx-background-color: linear-gradient(#268bd2,#2aa198); }
