@@ -1,0 +1,87 @@
+# ----------------------------------------
+# Java & Maven
+# ----------------------------------------
+/target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+hs_err_pid*
+replay_pid*
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# ----------------------------------------
+# Install4j
+# ----------------------------------------
+/install4j-out/
+/installer/
+/setup/
+/*.exe
+/*.msi
+/*.dmg
+/*.sh
+
+# ----------------------------------------
+# JavaFX jlink / jpackage
+# ----------------------------------------
+/build/
+/dist/
+/out/
+/jre/
+jlink-image/
+jpackage-image/
+
+# ----------------------------------------
+# Eclipse
+# ----------------------------------------
+.classpath
+.project
+.settings/
+bin/
+
+# ----------------------------------------
+# IntelliJ IDEA
+# ----------------------------------------
+.idea/
+*.iml
+*.iws
+out/
+
+# ----------------------------------------
+# Logs
+# ----------------------------------------
+*.log
+
+# ----------------------------------------
+# OS Files
+# ----------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# ----------------------------------------
+# Environment / Secrets
+# ----------------------------------------
+.env
+*.token
+*.key
+*.keystore
+secret.txt
+credentials.json
+config.json
+
+# GitHub private config
+github.properties
+github_token.txt

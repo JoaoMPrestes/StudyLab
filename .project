@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>AppQuiz_v1_1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>dist/run-universal.bat</name>
+			<type>1</type>
+			<location>C:/Users/joaom/Downloads/Eclipse/run-universal.bat</location>
+		</link>
+		<link>
+			<name>lib/jakarta.activation-api-2.1.2.jar</name>
+			<type>1</type>
+			<location>C:/Users/joaom/Downloads/jakarta.activation-api-2.1.2.jar</location>
+		</link>
+	</linkedResources>
+</projectDescription>
