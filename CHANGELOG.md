@@ -8,17 +8,31 @@ e este projeto utiliza **Semantic Versioning (SemVer)**.
 
 ## [Unreleased]
 ### Adicionado
-- (Reserve esta seção para futuras funcionalidades.)
+- (Seção reservada para futuras funcionalidades.)
 
 ### Corrigido
-- (Reserve esta seção para futuras correções.)
+- (Seção reservada para futuras correções.)
 
 ### Alterado
-- (Reserve esta seção para mudanças futuras.)
+- (Seção reservada para mudanças futuras.)
 
 ---
 
-## [1.0.0] - 2025-11-19
+## [1.0.1] - 2025-11-19
+### Adicionado
+- Sistema de AutoUpdater totalmente integrado.
+- VersionChecker para leitura de releases do GitHub.
+- Janela de progresso de download do instalador (UpdateProgressWindow).
+
+**Alterado**
+- Estrutura interna reorganizada para suportar fluxo de atualização.
+
+**Corrigido**
+- Ajustes menores nos módulos para compatibilidade com empacotamento via jpackage.
+
+---
+
+## [1.0.0] - 2025-11-18
 ### Adicionado
 - Versão inicial do **StudyLab (AppQuiz)**.
 - Suporte completo ao JavaFX.
@@ -47,4 +61,5 @@ e este projeto utiliza **Semantic Versioning (SemVer)**.
 ---
 
 [Unreleased]: https://github.com/JoaoMPrestes/StudyLab/compare/v1.0.0...HEAD  
+[1.0.1]: https://github.com/JoaoMPrestes/StudyLab/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/JoaoMPrestes/StudyLab/releases/tag/v1.0.0
