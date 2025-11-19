@@ -1,81 +1,23 @@
-# =========================================================
-#                 StudyLab - Professional .gitignore
-# =========================================================
-
-# ---------------------------
-# Maven Build
-# ---------------------------
-/target/
-!.mvn/wrapper/maven-wrapper.jar
-.mvn/timing.properties
-
-# ---------------------------
-# JPackage / Installers
-# ---------------------------
-/installer/
-/installers/
-/dist/
-/runtime/
-/out/
-/build/
-/*.exe
-/*.msi
-/*.dmg
-/*.pkg
-
-# ---------------------------
-# Java / JVM
-# ---------------------------
-*.class
-hs_err_pid*
-replay_pid*
-*.hprof
-
-# ---------------------------
-# Logs
-# ---------------------------
-*.log
-logs/
-debug.log
-
-# ---------------------------
-# JavaFX (cache / metadata)
-# ---------------------------
-*/module-info.class
-*/module-info.java.cache
-*/module-info.java.tmp
-
-# ---------------------------
-# IDE - IntelliJ IDEA
-# ---------------------------
-.idea/
-*.iml
-*.iws
+# Maven
+target/
+dist/
+bin/
 out/
+*.class
 
-# ---------------------------
-# IDE - Eclipse
-# ---------------------------
+# Installer gerado
+installer/
+*.exe
+*.msi
+
+# Eclipse / IDE
+.settings/
 .project
 .classpath
-.settings/
-bin/
 
-# ---------------------------
-# VSCode
-# ---------------------------
-.vscode/
-
-# ---------------------------
-# OS-generated
-# ---------------------------
+# Sistema
 .DS_Store
 Thumbs.db
 
-# ---------------------------
-# Temporary files
-# ---------------------------
-*.tmp
-*.bak
-*.swp
-*~
+# Logs
+*.log
