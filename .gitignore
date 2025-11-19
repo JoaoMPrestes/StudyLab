@@ -1,87 +1,81 @@
-# ----------------------------------------
-# Java & Maven
-# ----------------------------------------
+# =========================================================
+#                 StudyLab - Professional .gitignore
+# =========================================================
+
+# ---------------------------
+# Maven Build
+# ---------------------------
 /target/
-*.class
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-hs_err_pid*
-replay_pid*
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
 
-# Maven Wrapper
-.mvn/wrapper/maven-wrapper.jar
-.mvn/wrapper/maven-wrapper.properties
-
-# ----------------------------------------
-# Install4j
-# ----------------------------------------
-/install4j-out/
+# ---------------------------
+# JPackage / Installers
+# ---------------------------
 /installer/
-/setup/
+/installers/
+/dist/
+/runtime/
+/out/
+/build/
 /*.exe
 /*.msi
 /*.dmg
-/*.sh
+/*.pkg
 
-# ----------------------------------------
-# JavaFX jlink / jpackage
-# ----------------------------------------
-/build/
-/dist/
-/out/
-/jre/
-jlink-image/
-jpackage-image/
+# ---------------------------
+# Java / JVM
+# ---------------------------
+*.class
+hs_err_pid*
+replay_pid*
+*.hprof
 
-# ----------------------------------------
-# Eclipse
-# ----------------------------------------
-.classpath
-.project
-.settings/
-bin/
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+logs/
+debug.log
 
-# ----------------------------------------
-# IntelliJ IDEA
-# ----------------------------------------
+# ---------------------------
+# JavaFX (cache / metadata)
+# ---------------------------
+*/module-info.class
+*/module-info.java.cache
+*/module-info.java.tmp
+
+# ---------------------------
+# IDE - IntelliJ IDEA
+# ---------------------------
 .idea/
 *.iml
 *.iws
 out/
 
-# ----------------------------------------
-# Logs
-# ----------------------------------------
-*.log
+# ---------------------------
+# IDE - Eclipse
+# ---------------------------
+.project
+.classpath
+.settings/
+bin/
 
-# ----------------------------------------
-# OS Files
-# ----------------------------------------
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+# ---------------------------
+# VSCode
+# ---------------------------
+.vscode/
 
-# macOS
+# ---------------------------
+# OS-generated
+# ---------------------------
 .DS_Store
-.AppleDouble
-.LSOverride
-__MACOSX/
+Thumbs.db
 
-# ----------------------------------------
-# Environment / Secrets
-# ----------------------------------------
-.env
-*.token
-*.key
-*.keystore
-secret.txt
-credentials.json
-config.json
-
-# GitHub private config
-github.properties
-github_token.txt
+# ---------------------------
+# Temporary files
+# ---------------------------
+*.tmp
+*.bak
+*.swp
+*~
